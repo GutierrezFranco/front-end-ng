@@ -1,0 +1,17 @@
+
+<div id="skills">
+    <h1>Mis habilidades</h1>
+
+    <div class="container" *ngFor="let row of skillsList">
+
+        <p>{{row.tecnologia}}</p>
+
+        <div class="barra">
+            
+            <div class="porcent" [style.width]="row.porcentaje">{{row.porcentaje}}</div>
+
+        </div>
+
+    </div>
+
+</div>
