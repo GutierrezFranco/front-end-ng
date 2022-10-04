@@ -3,13 +3,13 @@
   
     <div class="container">
       
-      <div class="cartas" *ngFor="let row of proyectosList">
+
   
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem;" *ngFor="let row of proyectosList">
           <img [src]="row.img" class="card-img-top" [alt]="row.name">
           <div class="card-body">
             <h5 class="card-title">{{row.pname}}</h5>
-            <p class="card-text">{{row.desc}}</p>
+            <p class="card-text">{{row.pdesc}}</p>
             <a [href]="row.url" target="_blank" class="btn btn-success">Visitar</a>
             <a [href]="row.urlrepo" target="_blank" class="btn btn-primary">Ver repositorio</a>
           </div>
@@ -21,6 +21,6 @@
       </div>
   
   
-    </div>
+
   
   </section>
