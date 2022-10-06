@@ -30,6 +30,9 @@
         "tecnologia": "JS",
         "porcentaje": "70%"
       },{
+        "tecnologia": "MySQL",
+        "porcentaje": "70%"
+      },{
         "tecnologia": "PHP",
         "porcentaje": "60%"
       }
